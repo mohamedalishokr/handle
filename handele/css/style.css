@@ -1,0 +1,124 @@
+/* Navbar */ 
+/*mani-color= #1f79d1   */
+
+* , *:after, *:before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.clearfix{
+    clear: both
+}
+
+body
+{
+    font-family:cursive;
+    height:auto;
+	overflow: hidden
+}
+.nav-1{
+	height: 70px;
+ border-bottom: 1px solid gray;
+}
+
+.logo{
+	padding-left: 100px;
+}
+
+.logo-pic{
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	margin-left:50px;
+	margin-top: -10px
+}
+.logo i{
+   line-height: 60px
+}
+.search{
+    margin-left: 60px;
+}
+.search .search-plac {
+    width: 500px;
+}
+
+.sell{
+  margin-top: 10px;    
+    
+}   
+.sell-btton{
+    margin-left: 20px;
+}
+.title-login{
+ margin-top: 10px;
+ margin-bottom: 40px
+}
+.info{
+	margin-left: 10%
+}
+.forget{
+margin-left: 60px;
+}
+.pass , .mail {
+ border: 0 ;   
+ border-bottom: 2px solid #DDD;
+}
+.no-account{
+ display: inline;   
+}
+/* media query */
+
+
+@media (max-width: 767.98px) {  
+	.logo{
+	width: 250px;
+         }
+	.logo i{
+      margin-left: -10px;
+	}
+	
+	
+	.logo-pic{
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	margin-left:20px;
+	margin-top: -10px
+      }
+	.search{
+		margin-top: -80px;
+		margin-left: 180px
+    }
+    .search .search-plac {
+    width: 260px;
+    }
+	.sell{
+	  margin-top: -60px;    
+		margin-left: 500px;
+
+	}
+	.sell-btton{
+		margin-top: -60px;
+		margin-left: 0px
+     }
+}
+
+@media (min-width: 768px) and (max-width:1100px) {    
+
+	.search{
+		margin-left: 50px;
+		
+    }
+    .search .search-plac {
+    width: 300px;
+    }
+}
+ 
+
+
+
+
+
+
+}
